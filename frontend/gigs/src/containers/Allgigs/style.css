@@ -1,0 +1,119 @@
+.title h1{
+    padding-top: 2.47rem;
+    font-family: 'Almarai', sans-serif;
+    font-weight: 700;
+    color: #2C263D !important;
+}
+
+.title button {
+    margin-top: 2.65rem;
+}
+
+.title button span {
+    padding-left: 1rem;
+}
+.title {
+    /* border: 1px solid blue; */
+}
+
+.all-gigs {
+    padding: 0 9rem 0 4.5rem;
+    background-color: #FBFBFF;
+}
+
+.gig-types {
+    padding-top: 3rem;
+}
+
+.gig-types p span:nth-child(2) {
+    display: inline-block;
+    border-radius: 8px;
+    width: 81px;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 1rem;
+    background-color: #fbb30b1a;
+    color: #FBB30B;
+}
+
+.gig-types p::after {
+    content: "";
+    width: 16%;
+    border-bottom: 0.15rem solid transparent;
+    position: absolute;
+    padding-bottom: 1.85rem;
+}
+
+.gig-types p:active::after {
+    display: block;
+    border-bottom-color: #FBB30B;
+}
+.gig-types p span:nth-child(2):active {
+    background-color: #FBB30B;
+    color: #ffffff;
+}
+
+.all-gigs hr {
+    /* background-color: #7E7E7E; */
+    width: calc(100% + 13.5rem);
+    margin-left: -4.5rem;
+}
+
+.table tbody tr {
+    background: #FFFFFF;
+    box-shadow: 0px 3px 6px #00000003;
+    border: 1px solid red !important;
+    border-radius: 15px !important;
+}
+
+.tb {
+    border-collapse: separate;
+    border-spacing: 0 0.6rem;
+}
+
+.table td {
+    padding: 1.6rem;
+}
+
+table button {
+    border: 0;
+    background: #FCF4E6;
+    border-radius: 10px;
+    color: #FBB30B;
+    width: 150px;
+    height: 45px;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.32px;
+}
+.checkbox-label input{
+position: absolute;
+opacity: 0;
+cursor: pointer;
+}
+
+.checkbox-label .checkbox-custom {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 27px;
+    width: 29px;
+    background-color: transparent;
+    border: 1px solid red;
+    border-radius: 8px;
+}
+
+.checkbox-label .checkbox-custom::after {
+    position: absolute;
+    content: "";
+    left: 12px;
+    top: 12px;
+    height: 0px;
+    width: 0px;
+    border-radius: 8px;
+    border-width: 0 3px 3px 0;
+    transform: rotate(0deg) scale(0)
+    /* -webkit-transform: rotate(0deg)  scale(0); */
+}
