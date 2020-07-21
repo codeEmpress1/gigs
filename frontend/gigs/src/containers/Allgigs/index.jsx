@@ -59,9 +59,13 @@ const Allgigs = () => {
                             data.gigs.payload.map((val,index) => {
                               return (
                                 <tr  className="" key={index}>
-                                    <td className="checkbox-label">
-                                        <input type="checkbox" name="" id=""/>
-                                        <span className="checkbox-custom"></span>
+                                    <td>
+                                        <label class="checkbox">
+                                            <input type="checkbox" />
+                                            <span></span>
+                                        </label>                                        
+                                    {/* <input type="checkbox" name="" id=""/> */}
+                                        {/* <span className="checkbox-custom"></span> */}
                                     </td>
                                     <td>{val.role}</td>
                                     <td>{val.company}</td>
